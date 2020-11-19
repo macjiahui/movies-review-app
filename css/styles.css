@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+#title {
+    text-align: left;
+    background-image: url('../images/background1.png');
+}
+
+#title .container-fluid {
+    padding: 1% 10% 7%;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 1.5% 7%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: black;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar Secion*/
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 30px;
+    font-size: 1rem;
+}
+
+/* Buttons */
+
+#dropdownGenre {
+    background-color: black;
+    border: none;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Carousel Movie Picture Section */
+
+#carouselMoviePictures {
+    width: 480px;
+    height: 200px;
+    margin: auto;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: lightblue;
+    ;
+}
+
+/* Testimonial Section*/
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 75px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 20px 0;
+    
+}
+
+/* Sponsor section */
+#press {
+    background-color: black;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer Section */
+
+.social-icon {
+    margin: 20px 25px;
+}
+
+/* Screen Size */
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #carouselMoviePictures {
+        width: 420px;
+        height: 130px;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #title {
+        text-align: center;
+    }
+
+    #carouselMoviePictures {
+        width: 345px;
+        height: 110px;
+        margin: auto;
+    }
+
+}
